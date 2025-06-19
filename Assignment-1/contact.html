@@ -40,16 +40,20 @@
           <textarea name="message" rows="7" cols="32" required></textarea>
         </label><br><br>
 
-        <p>Choose Contact Method:</p>
-        <label><input type="checkbox" name="contact_method" value="email"> Email</label>
-        <label><input type="checkbox" name="contact_method" value="phone"> Phone</label>
-        <label><input type="checkbox" name="contact_method" value="text"> Text</label><br><br>
+        <fieldset>
+          <legend>Choose Contact Method:</legend>
+          <label><input type="checkbox" name="contact_method" value="email"> Email</label>
+          <label><input type="checkbox" name="contact_method" value="phone"> Phone</label>
+          <label><input type="checkbox" name="contact_method" value="text"> Text</label>
+        </fieldset><br><br>
 
-        <p>Inquiry Type:</p>
-        <label><input type="radio" name="inquiry" value="general" required> General</label>
-        <label><input type="radio" name="inquiry" value="business"> Business</label>
-        <label><input type="radio" name="inquiry" value="support"> Support</label><br><br>
-
+        <fieldset>
+          <legend>Inquiry Type:</legend>
+          <label><input type="radio" name="inquiry" value="general" required> General</label>
+          <label><input type="radio" name="inquiry" value="business"> Business</label>
+          <label><input type="radio" name="inquiry" value="support"> Support</label>
+        </fieldset><br><br>
+        
         <label>How did you find me?
           <select name="source" required>
             <option value="">Select One</option>
