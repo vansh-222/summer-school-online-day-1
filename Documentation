@@ -43,5 +43,7 @@ Home → portfolio.html
 About Me → about.html
 Contact → contact.html
 
-These links are placed inside the <header> of each page so that visitors can access them easily from the top, no matter which page they are on. This helps create a smooth experience 
-when someone moves between the pages. By using a consistent layout on every page, I made sure the navigation is user-friendly and predictable, which is important for a portfolio site.
+These links are placed inside the <header> of each page so that visitors can access them easily from the top, 
+no matter which page they are on. This helps create a smooth experience. when someone moves between the pages. 
+By using a consistent layout on every page, I made sure the navigation is user-friendly and predictable, 
+which is important for a portfolio site.
