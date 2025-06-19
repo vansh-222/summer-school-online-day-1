@@ -33,6 +33,7 @@ Radio: Good for choosing one option only.
 Required: Helps make sure the form isn't submitted empty
 pattern: Use this attribute to make sure the data is entered in the correct format.
 
+
 3. How My Navigation Structure Works:-
    
 To make my website easy to use, I created a simple and consistent navigation menu on all three pages using the <nav> element.
