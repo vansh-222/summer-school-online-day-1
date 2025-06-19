@@ -31,7 +31,7 @@ Range: I used this like a rating slider, e.g., 1 to 10.
 Checkbox: Lets the user select more than one contact method.
 Radio: Good for choosing one option only.
 Required: Helps make sure the form isn't submitted empty
-
+pattern: Use this attribute to make sure the data is entered in the correct format.
 
 3. How My Navigation Structure Works:-
    
