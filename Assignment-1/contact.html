@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="portfolio.html">Home</a> |
+      <a href="about.html">About Me</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header><br>
+
+  <main>
+    <section>
+      <form action="">
+        <label>Name:
+          <input type="text" name="name" required>
+        </label><br><br>
+
+        <label>Email:
+          <input type="email" name="email" required>
+        </label><br><br>
+
+        <label>Phone Number:
+          <input type="tel" name="phone" required pattern="[0-9]{10}" title="Enter 10 digit phone number">
+        </label><br><br>
+
+        <label>Date of Contact:
+          <input type="date" name="contact_date" required>
+        </label><br><br>
+
+        <label>Message:<br>
+          <textarea name="message" rows="7" cols="32" required></textarea>
+        </label><br><br>
+
+        <p>Choose Contact Method:</p>
+        <label><input type="checkbox" name="contact_method" value="email"> Email</label>
+        <label><input type="checkbox" name="contact_method" value="phone"> Phone</label>
+        <label><input type="checkbox" name="contact_method" value="text"> Text</label><br><br>
+
+        <p>Inquiry Type:</p>
+        <label><input type="radio" name="inquiry" value="general" required> General</label>
+        <label><input type="radio" name="inquiry" value="business"> Business</label>
+        <label><input type="radio" name="inquiry" value="support"> Support</label><br><br>
+
+        <label>How did you find me?
+          <select name="source" required>
+            <option value="">Select One</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="github">GitHub</option>
+            <option value="friend">Friend</option>
+            <option value="other">Other</option>
+          </select>
+        </label><br><br>
+
+        <label>Rate your experience 😔
+          <input type="range" name="experience" min="1" max="5">😊
+        </label><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Let's Connect 👉
+      <a href="https://www.linkedin.com/in/vansh-kumar-938752316/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/vansh-222">GitHub</a>
+    </p>
+    <p>&copy; 2025 Vansh Kumar. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
